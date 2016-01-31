@@ -49,8 +49,8 @@ The column names of the output are:
  - These signals were used to estimate variables of the feature vector for each pattern: -X, -Y or -Z is used to denote 3-axial signals in the X, Y and Z directions.
  - The set of variables that were estimated from these signals was broader, but the ones kept for the HAR_tidydata.txt file are: mean (mean) and standard deviation (std)
  - Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-  - gravityMean
-  - tBodyAccMean
-  - tBodyAccJerkMean
-  - tBodyGyroMean
-  - tBodyGyroJerkMean
+   - gravityMean
+   - tBodyAccMean
+   - tBodyAccJerkMean
+   - tBodyGyroMean
+   - tBodyGyroJerkMean
