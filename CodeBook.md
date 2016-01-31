@@ -50,7 +50,7 @@ The column names of the output are:
  - The set of variables that were estimated from these signals was broader, but the ones kept for the HAR_tidydata.txt file are: mean (mean) and standard deviation (std)
  - Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
    - gravityMean
-   - tBodyAccMean
-   - tBodyAccJerkMean
-   - tBodyGyroMean
-   - tBodyGyroJerkMean
+    - tBodyAccMean
+    - tBodyAccJerkMean
+    - tBodyGyroMean
+    - tBodyGyroJerkMean
