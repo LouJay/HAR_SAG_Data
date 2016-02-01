@@ -37,7 +37,7 @@ subsetdata<-select(mergeddata,subject_id,activity_id,contains("mean"),contains("
 ## Adding activity labels to the activity ids
 subsetdata<-merge(subsetdata,activities,all.x=TRUE,sort=FALSE)
 
-## Summarizing variables' data by average per subject per activity
+## Summarizing variables' data by average per subject-activity pair
 tidydata<-summarize_each(group_by(subsetdata,subject_id,activity),funs(mean))
 
 ## Creating final tidydata text file
